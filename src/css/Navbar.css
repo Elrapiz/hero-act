@@ -1,0 +1,28 @@
+.nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-block: 1rem;
+  padding-inline: 4rem;
+}
+
+.nav--bg {
+  background-color: steelblue;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__link {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}

@@ -1,8 +1,16 @@
-import Hero from './components/Hero'
+import { Routes, Route } from 'react-router-dom';
+import Hero from './pages/Hero'
+import About from './pages/About';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return <>
-    <Hero />
+    <Navbar />
+    
+    <Routes>
+      <Route path='/' element={<Hero />} />
+      <Route path='/about' element={<About />} />
+    </Routes>
   </>
 }
 

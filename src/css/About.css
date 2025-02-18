@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 4rem;
+  padding-inline: 1rem;
+}
+
+.wave-icon {
+  font-size: 20rem;
+}
