@@ -21,6 +21,10 @@ html {
 }
 
 /* Utilities shit */
+.px-2 {
+  padding-inline: 1rem;
+}
+
 .gap-2 {
   gap: 1rem;
 }

@@ -5,7 +5,7 @@ const Hero = () => {
     <div className='wrapper'>
       <div className='wrapper--sky-op-9'>
         <div className='h-full flex-center-all'>
-          <div>
+          <div className='px-2'>
             <div className='img-wrapper'>
               <img src="/meCropped.webp" alt="Me cropped" />
             </div>
