@@ -1,0 +1,93 @@
+.hero {
+    color: white;
+    background-image: url('/images/unsplashFreeProgrammingDeskSetup.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100svh;
+}
+
+.hero__overlay {
+    height: 100%;
+    background-color: hsl(
+        var(--primary-hue)
+        var(--primary-saturation)
+        var(--primary-lightness)
+        / .9
+    );
+}
+
+.hero__wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__img-frame {
+    width: 13rem;
+    height: 13rem;
+    margin-inline: auto;
+    margin-block-end: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(
+        var(--primary-hue)
+        var(--primary-saturation)
+        var(--primary-lightness)
+    );
+    border-radius: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.hero__img {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+}
+
+.greeting {
+    font-weight: 800;
+    margin-block-end: 1rem;
+}
+
+.greeting > span {
+    font-weight: 400;
+}
+
+.connect {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
+
+.connect__label {
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.connect__arrow {
+    flex-shrink: 0;
+    width: 3rem;
+}
+
+.connect__list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.connect__icon {
+    min-width: 1.5rem;
+    min-height: 1.5rem;
+}
+
+.connect__icon:hover {
+    color: hsl(
+        var(--accent-hue)
+        var(--accent-saturation)
+        var(--accent-lightness)
+    )
+}
