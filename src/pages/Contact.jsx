@@ -10,6 +10,8 @@ const Contact = () => {
                 <h3>I can't give my contact information in this public space to avoid spam. But you can fill up this form and it will directly mail it to me. Let's go!</h3>
 
                 <form name="contact" method="POST" data-netlify="true">
+                    <input type="hidden" name="form-name" value="contact" />
+
                     <div>
                         <input type="text" name='name' placeholder='Your name' />
                         <input type="text" name='email' placeholder='Your e-mail' />
