@@ -1,0 +1,63 @@
+.contact {
+    margin-block-end: 8rem;
+}
+
+.contact h3 {
+    color: gray;
+    font-weight: 400;
+    text-align: center;
+    margin-block-end: 4rem;
+}
+
+.contact form {
+    max-width: 720px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact form > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact form > div > * {
+    flex-grow: 1;
+}
+
+.contact form input,
+.contact form textarea {
+    padding: 1rem;
+}
+
+.contact form textarea {
+    resize: vertical;
+}
+
+.contact form button {
+    width: max-content;
+    padding: .5rem 2rem;
+    border: none;
+    background-color: hsl(
+        var(--primary-hue), 
+        var(--primary-saturation), 
+        var(--primary-lightness)
+    );
+    color: white;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    --primary-lightness: 43%;
+
+    background-color: hsl(
+        var(--primary-hue), 
+        var(--primary-saturation), 
+        var(--primary-lightness)
+    );
+}

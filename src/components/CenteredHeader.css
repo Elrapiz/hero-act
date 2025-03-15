@@ -1,0 +1,25 @@
+.title, .sub-title {
+    text-align: center;
+}
+
+.title {
+    color: hsl(
+        var(--primary-hue),
+        var(--primary-saturation),
+        var(--primary-lightness)
+    );
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    font-weight: 500;
+    margin-block-end: 2rem;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .title {
+        font-size: 4rem;
+    }
+}

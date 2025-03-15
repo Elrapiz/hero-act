@@ -1,0 +1,23 @@
+.brand {
+    width: 15rem;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s ease;
+}
+
+.brand--primary {
+    color: hsl(
+        var(--primary-hue)
+        var(--primary-saturation)
+        var(--primary-lightness)
+    );
+}
+
+.brand--white {
+    color: white;
+}
+
+@media only screen and (min-width: 1024px) {
+    .brand {
+        width: 20rem;
+    }
+}
