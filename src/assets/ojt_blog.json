@@ -1,0 +1,84 @@
+[
+    {
+        "id": 1,
+        "title": "Week 1",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week1.md",
+        "public_media_paths": [],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    },
+    {
+        "id": 2,
+        "title": "Week 2",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week2.md",
+        "public_media_paths": [
+            "/images/meCropped.webp",
+            "/images/wmsu-grayscaled.png",
+            "/videos/prim.mp4"
+        ],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    },
+    {
+        "id": 3,
+        "title": "Week 3",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week3.md",
+        "public_media_paths": [
+            "/images/meCropped.webp",
+            "/images/wmsu-grayscaled.png"
+        ],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    },
+    {
+        "id": 4,
+        "title": "Week 4",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week4.md",
+        "public_media_paths": [
+            "/images/meCropped.webp",
+            "/images/wmsu-grayscaled.png"
+        ],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    },
+    {
+        "id": 5,
+        "title": "Week 5",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week5.md",
+        "public_media_paths": [
+            "/images/meCropped.webp",
+            "/images/wmsu-grayscaled.png"
+        ],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    },
+    {
+        "id": 6,
+        "title": "Week 6",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week6.md",
+        "public_media_paths": [
+            "/images/meCropped.webp",
+            "/images/wmsu-grayscaled.png"
+        ],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    },
+    {
+        "id": 7,
+        "title": "Week 7",
+        "sub_title": "Client meetup and data gathering",
+        "public_markdown_path": "/markdown/ojt/week7.md",
+        "public_media_paths": [
+            "/images/meCropped.webp",
+            "/images/wmsu-grayscaled.png"
+        ],
+        "hours_spent": "8hrs",
+        "date_coverage": "Feb. 20, 2025 to Feb. 21, 2025"
+    }
+]
