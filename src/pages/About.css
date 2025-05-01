@@ -49,15 +49,31 @@
     max-width: 10rem;
 }
 
-/* to be updated */
+.work-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
 .work-list li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(0,0, 0, .2);
-    width: 100%;
-    height: 200px;
+    padding: 2rem;
     border: 1px dashed gray;
+}
+
+.work-list li video {
+    width: 100%;
+}
+
+.work-list__proj-label {
+    font-weight: 600;
+}
+
+.work-list a {
+    color: blue;
+}
+
+.work-list a:hover {
+    text-decoration: underline;
 }
 
 .experience-list {
@@ -95,6 +111,12 @@
     padding: 2rem;
     max-width: 45ch;
     border: 1px solid gray;
+}
+
+@media only screen and (min-width: 640px) {
+    .work-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media only screen and (min-width: 1024px) {

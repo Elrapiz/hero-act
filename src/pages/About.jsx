@@ -63,7 +63,24 @@ const About = () => {
 
             <CenteredHeader title="check out my work" subTitle="Here's what I have done in the past 😎">
                 <ul className='work-list'>
-                    <li>Shot block by elrapiz</li>
+                    <li>
+                        <h2>PRIM: Pokemon project</h2>
+                        <video controls src="/videos/prim.mp4"></video>
+                        <br />
+                        <p>A weekly react project integrating the <a target='_blank' href="https://pokeapi.co/">pokemon</a> api</p>
+                        <br />
+                        <p><span className='work-list__proj-label'>Built with: </span> React, TailwindCSS, json-server</p>
+                        <p><span className='work-list__proj-label'>Active link: </span>Unhosted</p>
+                    </li>
+                    <li>
+                        <h2>Todo project</h2>
+                        <video controls src="/videos/todoApp.mp4"></video>
+                        <br />
+                        <p>A weekly react project</p>
+                        <br />
+                        <p><span className='work-list__proj-label'>Built with: </span> React, TailwindCSS</p>
+                        <p><span className='work-list__proj-label'>Active link: </span><a target='_blank' href="https://lrp-todo.netlify.app/">https://lrp-todo.netlify.app/</a></p>
+                    </li>
                 </ul>
             </CenteredHeader>
 
