@@ -57,6 +57,9 @@ const Navbar = () => {
                     <li className='nav__item'>
                         <Link to='/contact' onClick={closeMenu} className='nav__link'>Contact</Link>
                     </li>
+                    <li className='nav__item'>
+                        <Link to='/blog' onClick={closeMenu} className='nav__link'>Blog</Link>
+                    </li>
                 </ul>
 
                 <div onClick={closeMenu} className='nav__backdrop'></div>
