@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import './ShowBlog.css'
 import ojtBlogs from '../assets/ojt_blog.json'
 import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import { useState, useEffect } from 'react'
 import FsLightbox from "fslightbox-react"
 
@@ -61,7 +62,11 @@ const ShowBlog = () => {
             <div className="markdown-content">
                 {loading && <p>Loading content...</p>}
                 {error && <p className="error">Error loading content: {error}</p>}
-                {!loading && !error && <ReactMarkdown>{markdownContent}</ReactMarkdown>}
+                {!loading && !error && (
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                        {markdownContent}
+                    </ReactMarkdown>
+                )}
             </div>
         </div>
     </>
