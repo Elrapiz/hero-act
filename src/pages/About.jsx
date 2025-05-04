@@ -71,6 +71,7 @@ const About = () => {
                         <br />
                         <p><span className='work-list__proj-label'>Built with: </span> React, TailwindCSS, json-server</p>
                         <p><span className='work-list__proj-label'>Active link: </span>Unhosted</p>
+                        <p><span className='work-list__proj-label'>Github link: </span><a target='_blank' href="https://github.com/Elrapiz/prim">https://github.com/Elrapiz/prim</a></p>
                     </li>
                     <li>
                         <h2>Todo project</h2>
@@ -80,6 +81,7 @@ const About = () => {
                         <br />
                         <p><span className='work-list__proj-label'>Built with: </span> React, TailwindCSS</p>
                         <p><span className='work-list__proj-label'>Active link: </span><a target='_blank' href="https://lrp-todo.netlify.app/">https://lrp-todo.netlify.app/</a></p>
+                        <p><span className='work-list__proj-label'>Github link: </span><a target='_blank' href="https://github.com/Elrapiz/todo">https://github.com/Elrapiz/todo</a></p>
                     </li>
                 </ul>
             </CenteredHeader>
