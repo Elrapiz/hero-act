@@ -69,7 +69,7 @@
     },
     {
         "id": 6,
-        "title": "Week 6",
+        "title": "Week 6-7",
         "sub_title": "General admin CRUD",
         "public_markdown_path": "/markdown/ojt/week6.md",
         "public_media_paths": [
@@ -77,11 +77,11 @@
             "/videos/week6.mp4"
         ],
         "hours_spent": "48hrs",
-        "date_coverage": "Mar. 24, 2025 to Apr. 04, 2025"
+        "date_coverage": "Mar. 24, 2025 to Apr. 10, 2025"
     },
     {
         "id": 7,
-        "title": "Week 7",
+        "title": "Week 7-8",
         "sub_title": "Alumni tracer form",
         "public_markdown_path": "/markdown/ojt/week7.md",
         "public_media_paths": [
@@ -93,6 +93,6 @@
             "/images/tracer_form (6).png"
         ],
         "hours_spent": "24hrs",
-        "date_coverage": "Apr. 04, 2025 to Apr. 11, 2025"
+        "date_coverage": "Apr. 15, 2025 to Apr. 30, 2025"
     }
 ]

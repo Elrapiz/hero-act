@@ -1,7 +1,7 @@
-# Week 6
+# Week 6-7
 ## General Admin CRUD
 
-**Week 6** was a pivotal phase focused on implementing comprehensive **CRUD (Create, Read, Update, Delete)** functionality for the admin panel. This allowed administrators to efficiently manage all major content types across the site.
+**Week 6-7** was a pivotal phase focused on implementing comprehensive **CRUD (Create, Read, Update, Delete)** functionality for the admin panel. This allowed administrators to efficiently manage all major content types across the site.
 
 ### Admin CRUD Implementation
 
