@@ -1,7 +1,7 @@
-# Week 7
+# Week 7-8
 ## Alumni Tracer Form
 
-**Week 7** marked the culmination of our efforts to implement a robust and flexible **Alumni Tracer Form** system, a key deliverable for the project. This week was dedicated to both the **finalization** and **integration** of the alumni tracer feature on the admin and public sides.
+**Week 7-8** marked the culmination of our efforts to implement a robust and flexible **Alumni Tracer Form** system, a key deliverable for the project. This week was dedicated to both the **finalization** and **integration** of the alumni tracer feature on the admin and public sides.
 
 ### Admin-Side: Dynamic Form Builder
 
